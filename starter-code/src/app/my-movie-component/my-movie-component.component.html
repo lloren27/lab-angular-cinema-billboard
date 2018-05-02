@@ -1,13 +1,22 @@
-
-  
-    <h6>ROOM:{{movieDetail.room}}</h6>
-    <h4>{{movieDetail.title}}</h4>
-    <img src="{{movieDetail.poster}}">
-    <p>{{movieDetail.synopsis}}</p>
-    <p>{{movieDetail.genres}}</p>
-    <p>{{movieDetail.year}}</p>
-    <p>{{movieDetail.director}}</p>
-    <p>{{movieDetail.actors}}</p>
-    <p>{{movieDetail.hours}}</p>
-
-    <button> <a class="irhome" [routerLink]="['/']"> Back to list </a></button>
+<div class="loguito">
+  <img src="https://joseramonsahuquillo.com/wp-content/uploads/2016/10/ironhack.png">
+  <h1>Cinema</h1>
+</div>
+<div class="picture">
+  <h4>ROOM:{{movieDetail.room}}</h4>
+  <h2>{{movieDetail.title}}</h2>
+  <img class="poster" src="{{movieDetail.poster}}">
+</div>
+<div class="texto">
+  <p>Genres: {{movieDetail.genres}}</p>
+  <p>Year: {{movieDetail.year}}</p>
+  <p>Director: {{movieDetail.director}}</p>
+  <p>Actors: {{movieDetail.actors}}</p>
+  <p>Schedule: {{movieDetail.hours}}</p>
+  <p>Synopsis: {{movieDetail.synopsis}}</p>
+</div>
+<div class="btn">
+  <button>
+    <a class="irhome" [routerLink]="['/']"> Back to list </a>
+  </button>
+</div>

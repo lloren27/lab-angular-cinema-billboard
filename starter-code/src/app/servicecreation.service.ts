@@ -35,8 +35,8 @@ export class ServicecreationService {
         "Gil Bellows"
       ],
       hours: [
-        "Wenesday - 12:59",
-        "Friday - 12:59",
+        "Wenesday - 12:59" , 
+        "Friday - 12:59" ,
         "Saturday - 12:59"
       ],
       room:4
@@ -59,8 +59,8 @@ export class ServicecreationService {
         "Sterling Hayden"
       ],
       hours: [
-        "Wenesday - 12:59",
-        "Friday - 12:59",
+        "Wenesday - 12:59" ,
+        "Friday - 12:59" ,
         "Saturday - 12:59"
 
       ],
@@ -84,8 +84,8 @@ export class ServicecreationService {
         "Talia Shire"
       ],
       hours: [
-        "Wenesday - 12:59",
-        "Friday - 12:59",
+        "Wenesday - 12:59" ,
+        "Friday - 12:59" ,
         "Saturday - 12:59"
       ],
       room:3

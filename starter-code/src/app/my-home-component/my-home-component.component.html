@@ -1,9 +1,13 @@
-<h1>Iron Cinema</h1>
+
+<div class="loguito">
+    <img src="https://joseramonsahuquillo.com/wp-content/uploads/2016/10/ironhack.png">
+    <h1>Cinema</h1>
+</div>
 <div>
   <ul class = "pelis">
   <li *ngFor= "let movie of moviesArray">
     <h2>ROOM:{{movie.room}}</h2>
-    <img src="{{movie.poster}}">
+    <img class="poster" src="{{movie.poster}}">
     <button (click)="goToMovie(movie.id)"> ir a la pelicula </button>
   </li>
 </ul>
